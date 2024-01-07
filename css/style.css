@@ -85,3 +85,87 @@ h6{
    font-weight: 600;
    margin-left: 400px;
 }
+
+/* client section start */
+.client-section{
+
+}
+
+.client-section .client-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+.client-section .client-box .left-box{
+    margin-top: 120px;
+}
+.client-box .right-box{
+    margin-top: 270px;
+}
+.client-box .right-box h3{
+    width: 288px;
+    color: #151414;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+.client-box .right-box p{
+    width: 416px;
+    color: #444343;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.right-box .text .single-text{
+    display: flex;
+    
+}
+.right-box .text .single-text p{
+    color: #444343;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+/* plan section start */
+.plan-section{
+
+}
+.plan-section-box .plan-section-heading h3{
+    color:  #151414;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.plan-section-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+.plan-section-bottom .plan-bottom-box{
+    text-align: center;
+}
+.plan-section-bottom .plan-bottom-box h5{
+    color: #151414;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.plan-section-bottom .plan-bottom-box span{
+    color: #737272;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: 500;
+}
